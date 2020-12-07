@@ -1,0 +1,85 @@
+body 
+{
+    box-sizing: border-box;
+    color: #373737;
+    background: #212121;
+    font-size: 16px;
+    font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    margin: 8px;
+}
+
+a, a:hover
+{
+    color: rgb(61, 112, 160);
+}
+
+#title
+{
+    position: absolute;
+    top: -25px;
+    left: 600px;
+    font-size: 60px;
+    color: white;
+}
+
+#subtitle_welcome
+{
+    text-decoration: underline;     
+    text-decoration-color: rgb(161, 10, 10);  
+    text-underline-position: auto;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    font-size: 45px;
+}
+
+#subtitle_repo
+{
+    text-decoration: underline;     
+    text-decoration-color: rgb(161, 10, 10);  
+    text-underline-position: auto;
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    font-size: 45px;
+}
+
+#welcomeSec
+{
+    background-color: black;
+}
+
+#deposSec
+{
+    background-color: black;
+}
+
+#txt_welcome
+{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    color: white;
+    font-size: 18px;;
+}
+
+#txt_repo
+{
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    color: rgb(36, 207, 193);
+    font-size: 18px;;
+}
+
+.footer
+{
+    position: absolute;
+    top: 755px;
+    left: 600px;
+    color: white;
+    font-size: 16px;;
+}
