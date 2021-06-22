@@ -1,0 +1,51 @@
+:root
+{
+    --background: rgb(99, 91, 91);
+    --box-color: rgb(9, 105, 122);
+}
+
+body 
+{
+    color: var(--background);
+    background-color: var(--background);
+}
+
+.title
+{
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+.nav
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.naviguation
+{
+    cursor: pointer;
+    font-size: 28px;
+    color: rgb(57, 169, 189);
+    margin: 5px;
+}
+
+.naviguation:hover
+{
+    color: rgb(57, 169, 189);
+}
+
+.box
+{
+    height: 5px;
+    width: auto;
+    color: var(--box-color);
+    background-color: var(--box-color);
+}
+
+a
+{ 
+    text-decoration:none;  
+}
