@@ -1,51 +1,40 @@
-:root
-{
-    --background: rgb(99, 91, 91);
-    --box-color: rgb(9, 105, 122);
+body {
+    background-color: rgb(26, 25, 25);
 }
 
-body 
+.menu, menu:visited, .menu:hover
 {
-    color: var(--background);
-    background-color: var(--background);
-}
-
-.title
-{
-    font-size: 26px;
-    color: white;
-    text-align: center;
-    font-style: oblique;
-}
-
-.nav
-{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.naviguation
-{
+    transform: scale(1);
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(36, 120, 230);
     cursor: pointer;
-    font-size: 28px;
-    color: rgb(57, 169, 189);
-    margin: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
 }
 
-.naviguation:hover
+.center
 {
-    color: rgb(57, 169, 189);
+    text-align: center;
 }
 
-.box
+p
 {
-    height: 5px;
-    width: auto;
-    color: var(--box-color);
-    background-color: var(--box-color);
+    color: white;
+    font-size: 20px;
 }
 
-a
-{ 
-    text-decoration:none;  
+.separate {
+    height: 75px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    width:99%;
+    height:20px;
 }
