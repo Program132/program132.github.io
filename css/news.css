@@ -1,4 +1,66 @@
-.lists {
+.factor {
+    background-color: rgb(39, 39, 43);
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 450px;
+    transition: transform 400ms;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.factor:hover {
+    background-color: rgb(65, 64, 64);
+    transform: scale(1.06);
+}
+
+.title_factor {
+    text-align: center;
+}
+
+info_factor {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(219, 136, 40);
+}
+
+.separator_info_factor {
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+li {
     color: white;
+    font-size: 20px;
+}
+
+.website {
+    background-color: rgb(39, 39, 43);
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    height: 450px;
+    transition: transform 400ms;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.website:hover {
+    background-color: rgb(65, 64, 64);
+    transform: scale(1.06);
+}
+
+.news_footer {
+    text-align: center;
+    background-color: black;
     font-size: 18px;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    width:99%;
+    height:20px;
 }
