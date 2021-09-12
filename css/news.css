@@ -16,6 +16,7 @@
 
 .title_factor {
     text-align: center;
+    font-size: 20px;
 }
 
 info_factor {
@@ -62,6 +63,7 @@ li {
     
     .title_factor {
         text-align: center;
+        font-size: 16px;
     }
     
     info_factor {
@@ -95,10 +97,11 @@ li {
     
     .title_factor {
         text-align: center;
+        font-size: 14px;
     }
     
     info_factor {
-        font-size: 18px;
+        font-size: 14px;
         text-align: left;
         color: rgb(219, 136, 40);
     }
@@ -114,6 +117,6 @@ li {
     
     li {
         color: white;
-        font-size: 18px;
+        font-size: 14px;
     }
 }
