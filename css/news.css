@@ -38,39 +38,3 @@ li {
     color: white;
     font-size: 20px;
 }
-
-
-@media only screen and (max-width:1400px) {
-    .factor {
-        font-size: 13px;
-        background-color: rgb(39, 39, 43);
-        margin-left: auto;
-        margin-right: auto;
-        width: 550px;
-        height: 250px;
-        transition: transform 400ms;
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    
-    .factor:hover {
-        background-color: rgb(65, 64, 64);
-        transform: scale(1.06);
-    }
-    
-    .title_factor {
-        text-align: center;
-        font-size: 13px;
-    }
-    
-    info_factor {
-        font-size: 13px;
-        text-align: left;
-        color: rgb(219, 136, 40);
-    }
-    
-    li {
-        color: white;
-        font-size: 13px;
-    }
-}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1900px) {
+    p, li {
+        font-size: 16px;
+        color: white;
+    }
+
+    .menu {
+        font-size: 18px;
+    }
+
+    .menu:hover {
+        font-size: 20px;
+    }
+
+    img {
+        width: 66px;
+        height: 66px;
+    }
+
+    .factor {
+        font-size: 16px;
+        background-color: rgb(39, 39, 43);
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+        height: 340px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .factor:hover {
+        background-color: rgb(65, 64, 64);
+    }
+    
+    .title_factor {
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    info_factor {
+        font-size: 16px;
+        text-align: left;
+        color: rgb(219, 136, 40);
+    }
+
+    footer {
+        font-size: 17px;
+        height:12px;
+        bottom: 5px;
+    }
+
+    .separator_info_factor {
+        height: 10px;
+    }
+
+    .separate {
+        height: 20px;
+    }
+}

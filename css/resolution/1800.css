@@ -1,0 +1,59 @@
+@media screen and (max-width: 1800px) {
+    p, li {
+        font-size: 14px;
+        color: white;
+    }
+
+    .menu {
+        font-size: 16px;
+    }
+
+    .menu:hover {
+        font-size: 18px;
+    }
+
+    img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .factor {
+        font-size: 14px;
+        background-color: rgb(39, 39, 43);
+        margin-left: auto;
+        margin-right: auto;
+        width: 550px;
+        height: 340px;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    
+    .factor:hover {
+        background-color: rgb(65, 64, 64);
+    }
+    
+    .title_factor {
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    info_factor {
+        font-size: 14px;
+        text-align: left;
+        color: rgb(219, 136, 40);
+    }
+
+    footer {
+        font-size: 15px;
+        height:12px;
+        bottom: 5px;
+    }
+
+    .separator_info_factor {
+        height: 10px;
+    }
+
+    .separate {
+        height: 20px;
+    }
+}
