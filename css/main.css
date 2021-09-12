@@ -38,3 +38,31 @@ footer {
     width:99%;
     height:20px;
 }
+
+@media only screen and (max-width:1366px) {
+    footer {
+        text-align: center;
+        background-color: black;
+        font-size: 17px;
+        color: white;
+        position: absolute;
+        bottom: 10px;
+        width:99%;
+        height:20px;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+    footer {
+        text-align: center;
+        background-color: black;
+        font-size: 16px;
+        color: white;
+        position: absolute;
+        bottom: 15px;
+        width:99%;
+        height:20px;
+    }
+    
+}
