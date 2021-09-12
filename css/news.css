@@ -39,52 +39,15 @@ li {
     font-size: 20px;
 }
 
-@media only screen and (max-width:800px) {
-    p {
-        color: white;
-        font-size: 16px;
-    }
-
-    .factor {
-        background-color: rgb(39, 39, 43);
-        margin-left: auto;
-        margin-right: auto;
-        width: 525px;
-        height: 225px;
-        transition: transform 400ms;
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-    
-    .factor:hover {
-        background-color: rgb(65, 64, 64);
-        transform: scale(1.06);
-    }
-    
-    .title_factor {
-        text-align: center;
-        font-size: 16px;
-    }
-    
-    info_factor {
-        font-size: 16px;
-        text-align: left;
-        color: rgb(219, 136, 40);
-    }
-    
-    li {
-        color: white;
-        font-size: 16px;
-    }
-}
 
 @media only screen and (max-width:1366px) {
     .factor {
+        font-size: 13px;
         background-color: rgb(39, 39, 43);
         margin-left: auto;
         margin-right: auto;
-        width: 650px;
-        height: 350px;
+        width: 550px;
+        height: 250px;
         transition: transform 400ms;
         padding-left: 30px;
         padding-top: 30px;
@@ -97,26 +60,17 @@ li {
     
     .title_factor {
         text-align: center;
-        font-size: 14px;
+        font-size: 13px;
     }
     
     info_factor {
-        font-size: 14px;
+        font-size: 13px;
         text-align: left;
         color: rgb(219, 136, 40);
     }
     
-    .separator_info_factor {
-        height: 30px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: yellow;
-    }
-    
     li {
         color: white;
-        font-size: 14px;
+        font-size: 13px;
     }
 }
