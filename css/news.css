@@ -40,7 +40,7 @@ li {
 }
 
 
-@media only screen and (max-width:1366px) {
+@media only screen and (max-width:1400px) {
     .factor {
         font-size: 13px;
         background-color: rgb(39, 39, 43);
