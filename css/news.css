@@ -1,34 +1,3 @@
-.factor {
-    background-color: rgb(39, 39, 43);
-    margin-left: auto;
-    margin-right: auto;
-    width: 750px;
-    height: 450px;
-    transition: transform 400ms;
-    padding-left: 30px;
-    padding-top: 30px;
-}
-
-.factor:hover {
-    background-color: rgb(65, 64, 64);
-    transform: scale(1.06);
-}
-
-.title_factor {
-    text-align: center;
-    font-size: 20px;
-}
-
-info_factor {
-    font-size: 20px;
-    text-align: left;
-    color: rgb(219, 136, 40);
-}
-
-.separator_info_factor {
-    height: 30px;
-}
-
 a {
     text-decoration: none;
     color: yellow;
@@ -37,4 +6,62 @@ a {
 li {
     color: white;
     font-size: 20px;
+}
+
+@keyframes comeback {
+    from {
+        background-color: rgb(107, 70, 155);
+        transform: scale(1.06);
+    }
+    to {
+        background-color: black;
+        transform: scale(1);
+    }
+}
+  
+@keyframes start {
+    from {
+        background-color: black;
+        transform: scale(1);
+    }
+    to {
+        background-color: rgb(107, 70, 155);
+        transform: scale(1.06);
+    }
+}
+
+
+
+.news
+{
+    background-color: rgb(39, 39, 43);
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 290px;
+    animation: comeback 400ms;
+    animation-fill-mode: forwards;
+}
+
+.news_txt {
+    font-size: 14px;
+    padding-top: 5%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    color: white;
+}
+
+.news_title {
+    padding-top: 5%;
+    color: white;
+    font-size: 20px;
+    font-style: inherit;
+    text-align: center;
+}
+
+.news:hover {
+    cursor: pointer;
+    animation: start 400ms;
+    animation-fill-mode: forwards;
 }
