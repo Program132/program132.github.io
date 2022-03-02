@@ -1,14 +1,100 @@
 .about p {
-    text-align: center;
+  font-size: 13px;
+  text-align: center;
 }
-
 .about a {
-    color: #888787;
-    font-size: 20px;
-    text-decoration: none;
+  color: #888787;
+  font-size: 12px;
+  text-decoration: none;
+}
+.about img {
+  width: 1.6%;
+  height: 1.6%;
 }
 
-.logo {
-    width: 0.7%;
-    height: 0.7%;
+@media only screen and (min-width: 200px) {
+  .about p {
+    font-size: 11px;
+  }
+  .about a {
+    font-size: 10px;
+  }
+  .about img {
+    width: 5%;
+    height: 5%;
+  }
 }
+@media only screen and (min-width: 300px) {
+  .about p {
+    font-size: 11px;
+  }
+  .about a {
+    font-size: 10px;
+  }
+  .about img {
+    width: 3%;
+    height: 3%;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .about p {
+    font-size: 11px;
+  }
+  .about a {
+    font-size: 10px;
+  }
+  .about img {
+    width: 2%;
+    height: 2%;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .about p {
+    font-size: 15px;
+  }
+  .about a {
+    font-size: 14px;
+  }
+  .about img {
+    width: 1.8%;
+    height: 1.8%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .about p {
+    font-size: 15.5px;
+  }
+  .about a {
+    font-size: 14.5px;
+  }
+  .about img {
+    width: 1.8%;
+    height: 1.8%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about p {
+    font-size: 16.5px;
+  }
+  .about a {
+    font-size: 15.5px;
+  }
+  .about img {
+    width: 1.3%;
+    height: 1.3%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .about p {
+    font-size: 17px;
+  }
+  .about a {
+    font-size: 16px;
+  }
+  .about img {
+    width: 1.1%;
+    height: 1.1%;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */

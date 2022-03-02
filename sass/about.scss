@@ -1,0 +1,47 @@
+@import "./about.resolution.scss";
+
+.about {
+    p {
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    a {
+        color: #888787;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    img {
+        width: 1.6%;
+        height: 1.6%;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    @include minwidth200();
+}
+
+@media only screen and (min-width: 300px) {
+    @include minwidth300();
+}
+
+@media only screen and (min-width: 500px) {
+    @include minwidth500();
+}
+
+@media only screen and (min-width: 750px) {
+    @include minwidth750();
+}
+
+@media only screen and (min-width: 1000px) {
+    @include minwidth1000();
+}
+
+@media only screen and (min-width: 1200px) {
+    @include minwidth1200();
+}
+
+@media only screen and (min-width: 1600px) {
+    @include minwidth1600();
+}

@@ -1,159 +1,103 @@
 @keyframes comeback {
-    from {
-        transform: scale(1.06);
-    }
-    to {
-        transform: scale(1);
-    }
-}
-  
-@keyframes start {
-    from {
-        background-color: black;
-        transform: scale(1);
-    }
-    to {
-        background-color: rgb(78, 96, 194);
-        transform: scale(1.06);
-    }
-}
-
-.welcome {
-    font-size: 14px;
-}
-
-.news
-{
+  from {
     background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: auto;
+    transform: scale(1.06);
+  }
+  to {
     transform: scale(1);
-    animation: comeback 400ms;
-    animation-fill-mode: forwards;
+  }
 }
-
-.news_txt {
-    font-size: 12px;
-    padding-top: 5%;
-    padding-right: 3%;
-    padding-bottom: 5%;
-    padding-left: 3%;
-    color: rgb(233, 233, 233);
+@keyframes start {
+  from {
+    background-color: black;
+    transform: scale(1);
+  }
+  to {
+    background-color: #373e49;
+    transform: scale(1.06);
+  }
 }
-
-.news_title {
-    padding-top: 5%;
-    color: rgb(233, 233, 233);
-    font-size: 15px;
-    text-align: center;
+.news {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+  transform: scale(1);
+  border: 2.5px solid;
+  border-color: #272727;
+  border-radius: 4%;
+  animation: comeback 400ms;
+  animation-fill-mode: forwards;
 }
-    
+.news p {
+  font-size: 12px;
+  padding-top: 5%;
+  padding-right: 3%;
+  padding-bottom: 5%;
+  padding-left: 3%;
+  color: #dbd9d9;
+}
+.news h1 {
+  padding-top: 5%;
+  color: #dbd9d9;
+  font-size: 15px;
+  text-align: center;
+}
 .news:hover {
-    cursor: pointer;
-    animation: start 400ms;
-    animation-fill-mode: forwards;
+  cursor: pointer;
+  animation: start 400ms;
+  animation-fill-mode: forwards;
 }
 
+.separate {
+  height: 60px;
+  width: auto;
+}
+
+@media only screen and (min-width: 400px) {
+  .news {
+    width: 80%;
+  }
+  .news p {
+    font-size: 10x;
+  }
+  .news h1 {
+    font-size: 14px;
+  }
+}
 @media only screen and (min-width: 750px) {
-    .welcome {
-        font-size: 13px;
-    }
-
-    .news
-    {
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        width: 59%;
-        height: auto;
-        transform: scale(1);
-        animation: comeback 400ms;
-        animation-fill-mode: forwards;
-    }
-
-    .news_txt {
-        font-size: 12px;
-        padding-top: 5%;
-        padding-right: 3%;
-        padding-bottom: 5%;
-        padding-left: 3%;
-        color: rgb(233, 233, 233);
-    }
-
-    .news_title {
-        padding-top: 5%;
-        color: rgb(233, 233, 233);
-        font-size: 16px;
-        text-align: center;
-    }
+  .news {
+    width: 59%;
+  }
+  .news p {
+    font-size: 12.5px;
+  }
+  .news h1 {
+    font-size: 19px;
+  }
 }
-
 @media only screen and (min-width: 1200px) {
-    .welcome {
-        font-size: 15px;
-    }
-
-    .news
-    {
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        width: 55%;
-        height: auto;
-        transform: scale(1);
-        animation: comeback 400ms;
-        animation-fill-mode: forwards;
-    }
-
-    .news_txt {
-        font-size: 12px;
-        padding-top: 3.5%;
-        padding-right: 3%;
-        padding-bottom: 3.5%;
-        padding-left: 3%;
-        color: rgb(233, 233, 233);
-    }
-
-    .news_title {
-        padding-top: 4%;
-        color: rgb(233, 233, 233);
-        font-size: 15px;
-        text-align: center;
-    }
+  .news {
+    width: 62%;
+  }
+  .news p {
+    font-size: 13.5px;
+  }
+  .news h1 {
+    font-size: 20px;
+  }
 }
-
 @media only screen and (min-width: 1600px) {
-    .welcome {
-        font-size: 17px;
-    }
-
-    .news
-    {
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        width: 60%;
-        height: auto;
-        transform: scale(1);
-        animation: comeback 400ms;
-        animation-fill-mode: forwards;
-    }
-    
-    .news_txt {
-        font-size: 16px;
-        padding-top: 6%;
-        padding-right: 4%;
-        padding-bottom: 5%;
-        padding-left: 4%;
-        color: rgb(233, 233, 233);
-    }
-    
-    .news_title {
-        padding-top: 6%;
-        color: rgb(233, 233, 233);
-        font-size: 22px;
-        text-align: center;
-    }
+  .news {
+    width: 56%;
+  }
+  .news p {
+    font-size: 15px;
+  }
+  .news h1 {
+    font-size: 22px;
+  }
 }
+
+/*# sourceMappingURL=news.css.map */
