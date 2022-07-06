@@ -1,5 +1,10 @@
-# WebSite Program Entertainment
+# Program
 
-Main link: https://program132.github.io/main.html
+This repository is to create the website of Program.
+The website use SASS, a preprocesseur for CSS.
 
-Froblox WebSite link: https://program132.github.io/Froblox-Website/index.html
+# Link
+
+[WebSite](https://program132.github.io/home.html)
+
+[Froblox WebSite]()
