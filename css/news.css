@@ -1,103 +1,112 @@
-@keyframes comeback {
-  from {
-    background-color: black;
-    transform: scale(1.06);
-  }
-  to {
-    transform: scale(1);
-  }
+.a-ul-manager {
+  font-size: 25px;
+  margin-left: 13%;
+  margin-top: 7%;
+  position: relative;
+  justify-content: left;
+  align-items: left;
+  min-height: 100vh;
+  transform: skewY(-15deg);
+  transition: 0.5s;
 }
-@keyframes start {
-  from {
-    background-color: black;
-    transform: scale(1);
-  }
-  to {
-    background-color: #373e49;
-    transform: scale(1.06);
-  }
+.a-ul-manager li {
+  position: relative;
+  list-style: none;
+  width: 200px;
+  background: #3e3f46;
+  padding: 20px;
+  z-index: var(--i);
+  transition: 0.5s;
 }
-.news {
-  background-color: black;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: auto;
-  transform: scale(1);
-  border: 2.5px solid;
-  border-color: #272727;
-  border-radius: 4%;
-  animation: comeback 400ms;
-  animation-fill-mode: forwards;
+.a-ul-manager li:hover {
+  background: var(--clr);
+  transform: translateX(-50px);
 }
-.news p {
-  font-size: 12px;
-  padding-top: 5%;
-  padding-right: 3%;
-  padding-bottom: 5%;
-  padding-left: 3%;
-  color: #dbd9d9;
+.a-ul-manager li:hover::before {
+  background: var(--clr);
 }
-.news h1 {
-  padding-top: 5%;
-  color: #dbd9d9;
-  font-size: 15px;
-  text-align: center;
+.a-ul-manager li:hover::after {
+  background: var(--clr);
 }
-.news:hover {
+.a-ul-manager li:hover a {
+  color: #fff;
+}
+.a-ul-manager li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 40px;
+  left: -40px;
+  height: 100%;
+  background: #3e3f46;
+  transform-origin: right;
+  transform: skewY(45deg);
+  transition: 0.5s;
+}
+.a-ul-manager li::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #3e3f46;
+  transform-origin: bottom;
+  transform: skewX(45deg);
+  transition: 0.5s;
+}
+.a-ul-manager li:last-child::after {
+  box-shadow: -150px 150px 20px rgba(0, 0, 0, 0.5);
+}
+.a-ul-manager li a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: 0.5s;
+}
+
+.content-container {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  gap: 75px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+.content-container .container {
+  position: relative;
   cursor: pointer;
-  animation: start 400ms;
-  animation-fill-mode: forwards;
-}
-
-.separate {
-  height: 60px;
+  background: rgb(48, 47, 47);
   width: auto;
+  height: 300px;
+  color: rgb(228, 228, 228);
+  font-size: 15px;
+  padding: 10px 15px;
+  transition: 0.5s;
+  border-radius: 0.5em;
+  transform: scale(1);
 }
-
-@media only screen and (min-width: 400px) {
-  .news {
-    width: 80%;
-  }
-  .news p {
-    font-size: 10x;
-  }
-  .news h1 {
-    font-size: 14px;
-  }
+.content-container .container h2 {
+  text-transform: uppercase;
 }
-@media only screen and (min-width: 750px) {
-  .news {
-    width: 59%;
-  }
-  .news p {
-    font-size: 12.5px;
-  }
-  .news h1 {
-    font-size: 19px;
-  }
+.content-container .container:hover {
+  color: var(--color);
+  background: var(--color);
+  box-shadow: 0 0 30px var(--color);
+  transform: scale(1.1);
 }
-@media only screen and (min-width: 1200px) {
-  .news {
-    width: 62%;
-  }
-  .news p {
-    font-size: 13.5px;
-  }
-  .news h1 {
-    font-size: 20px;
-  }
+.content-container .container::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: rgb(48, 47, 47);
 }
-@media only screen and (min-width: 1600px) {
-  .news {
-    width: 56%;
-  }
-  .news p {
-    font-size: 15px;
-  }
-  .news h1 {
-    font-size: 22px;
-  }
+.content-container .container p, .content-container .container h2 {
+  position: relative;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=news.css.map */

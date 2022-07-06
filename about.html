@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Program Entertainment</title>
-        <meta charset="utf-8" />
-        <link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
-        <link rel="stylesheet" href="css/main.css" />
-        <link rel="stylesheet" href="css/about.css" />
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/about.css">
     </head>
-
+    
     <body>
-        <header class="topbar">
-            <a href="main.html" class="topbar-logo"><img src="img/logo.png" width=82px height=60px></a>
+        <ul class="a-ul-manager">
+            <li style="--i:4; --clr: rgb(40, 170, 221)"><a href="home.html">Home</a></li>
+            <li style="--i:3; --clr: rgb(31, 223, 89)""><a href="news.html">News</a></li>
+            <li style="--i:2; --clr: rgb(119, 41, 119)""><a href="creations.html">Creations</a></li>
+            <li style="--i:1; --clr: rgb(223, 108, 31)"><a href="about.html">About</a></li>
+        </ul>
 
-            <nav class="topbar-nav">
-                <a href="main.html">Home</a>
-                <a href="news.html">News</a>
-                <a href="about.html">About</a>
-            </nav>
-        </header>
-
-            <div class="separate"></div>
-
-        <div class="about">
-            <p>
-                Welcome to the website of Program Entertainlment <br>
-                The job is create, innovate, IT development, design, animations, modeling. <br>
-                We are working on: Roblox, Discord, Minecraft, Web and more !<br>
-                
-    
-                Join us on the <a href="https://discord.com/invite/CVPdpdpmGv"><img class="logo" src="img/Discord.png"> Discord</a> server. 
-            </p>
-    
+        <div class="faq">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+                <div class="tab">
+                    <input type="radio" name="acc" id="acc1">
+                    <label for="acc1">
+                        <h2>01</h2>
+                        <h3>Who is Program? What does he create?</h3>
+                    </label>
+                    <div class="content">
+                        <p>I am a developer for 6 years old. I am coding in a lot of programming languages : Java, C++, Web, Lua and more !</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="acc" id="acc2">
+                    <label for="acc2">
+                        <h2>02</h2>
+                        <h3>How supports the projects?</h3>
+                    </label>
+                    <div class="content">
+                        <p>To support the projects, you can just join the discord server or follow us anywhere :) !</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="acc" id="acc3">
+                    <label for="acc3">
+                        <h2>03</h2>
+                        <h3>Volunteer?</h3>
+                    </label>
+                    <div class="content">
+                        <p>Yes, I do not get any money from my projects.</p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="radio" name="acc" id="acc4">
+                    <label for="acc4">
+                        <h2>04</h2>
+                        <h3>Working with a team?</h3>
+                    </label>
+                    <div class="content">
+                        <p>Sadly no, but I am still searching a studio or a good team in Roblox for example.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-            
-        <footer>
-            © 2021 Copyright. Design, coded by Program.
-        </footer>
-
     </body>
 </html>

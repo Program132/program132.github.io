@@ -1,100 +1,114 @@
-.about p {
-  font-size: 13px;
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+.faq {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  min-height: 100vh;
 }
-.about a {
-  color: #888787;
-  font-size: 12px;
-  text-decoration: none;
+.faq .container {
+  margin: 50px 300px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.about img {
-  width: 1.6%;
-  height: 1.6%;
+.faq .container h1 {
+  color: rgb(20, 20, 20);
 }
-
-@media only screen and (min-width: 200px) {
-  .about p {
-    font-size: 11px;
-  }
-  .about a {
-    font-size: 10px;
-  }
-  .about img {
-    width: 5%;
-    height: 5%;
-  }
+.faq .container .tab {
+  position: relative;
+  background: #fff;
+  padding: 0 20px 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
 }
-@media only screen and (min-width: 300px) {
-  .about p {
-    font-size: 11px;
-  }
-  .about a {
-    font-size: 10px;
-  }
-  .about img {
-    width: 3%;
-    height: 3%;
-  }
+.faq .container .tab .content {
+  max-height: 0;
+  transition: 1s;
+  overflow: hidden;
 }
-@media only screen and (min-width: 500px) {
-  .about p {
-    font-size: 11px;
-  }
-  .about a {
-    font-size: 10px;
-  }
-  .about img {
-    width: 2%;
-    height: 2%;
-  }
+.faq .container .tab .content p {
+  position: relative;
+  padding: 10px 0;
+  color: #333;
+  z-index: 10;
 }
-@media only screen and (min-width: 750px) {
-  .about p {
-    font-size: 15px;
-  }
-  .about a {
-    font-size: 14px;
-  }
-  .about img {
-    width: 1.8%;
-    height: 1.8%;
-  }
+.faq .container .tab input {
+  appearance: none;
 }
-@media only screen and (min-width: 1000px) {
-  .about p {
-    font-size: 15.5px;
-  }
-  .about a {
-    font-size: 14.5px;
-  }
-  .about img {
-    width: 1.8%;
-    height: 1.8%;
-  }
+.faq .container .tab input:checked ~ label::after {
+  transform: rotate(135deg);
 }
-@media only screen and (min-width: 1200px) {
-  .about p {
-    font-size: 16.5px;
-  }
-  .about a {
-    font-size: 15.5px;
-  }
-  .about img {
-    width: 1.3%;
-    height: 1.3%;
-  }
+.faq .container .tab input:checked ~ .content {
+  max-height: 100vh;
 }
-@media only screen and (min-width: 1600px) {
-  .about p {
-    font-size: 17px;
-  }
-  .about a {
-    font-size: 16px;
-  }
-  .about img {
-    width: 1.1%;
-    height: 1.1%;
-  }
+.faq .container .tab input:checked ~ label h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.2);
+  font-size: 8em;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.faq .container .tab input:checked ~ .content p {
+  color: #fff;
+}
+.faq .container .tab input:checked ~ label h3 {
+  color: #fff;
+}
+.faq .container .tab label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.faq .container .tab label::after {
+  content: "+";
+  position: absolute;
+  right: 20px;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.1);
+  transition: transform 1s;
+}
+.faq .container .tab label h2 {
+  width: 40px;
+  height: 40px;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1.25em;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.faq .container .tab label h3 {
+  position: relative;
+  font-weight: 500;
+  color: #333;
+  z-index: 10;
+}
+.faq .container .tab:hover label::after {
+  color: #333;
+}
+.faq .container .tab:nth-child(2) label h2 {
+  background: linear-gradient(135deg, #75f570, #49c628);
+}
+.faq .container .tab:nth-child(3) label h2 {
+  background: linear-gradient(135deg, #62dde6, #376ad8);
+}
+.faq .container .tab:nth-child(4) label h2 {
+  background: linear-gradient(135deg, #cf60dd, #aa0cd1);
+}
+.faq .container .tab:nth-child(5) label h2 {
+  background: linear-gradient(135deg, #ccda55, #d17c0c);
 }
 
 /*# sourceMappingURL=about.css.map */
