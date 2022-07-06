@@ -70,7 +70,6 @@
 .content-container {
   display: flex;
   justify-content: right;
-  align-items: right;
   flex-direction: column;
   gap: 75px;
   margin-top: 100px;
@@ -107,6 +106,11 @@
 .content-container .container p, .content-container .container h2 {
   position: relative;
   z-index: 1;
+}
+
+img {
+  width: available;
+  height: available;
 }
 
 /*# sourceMappingURL=creations.css.map */
