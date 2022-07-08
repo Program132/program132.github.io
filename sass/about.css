@@ -109,5 +109,11 @@
 .faq .container .tab:nth-child(5) label h2 {
   background: linear-gradient(135deg, #ccda55, #d17c0c);
 }
+.faq .container .tab:nth-child(6) label h2 {
+  background: linear-gradient(135deg, #ff4747, #a10909);
+}
+.faq .container .tab:nth-child(7) label h2 {
+  background: linear-gradient(135deg, #886b0a, #a13e09);
+}
 
 /*# sourceMappingURL=about.css.map */
