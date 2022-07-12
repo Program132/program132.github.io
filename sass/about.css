@@ -61,7 +61,7 @@
   color: #fff;
 }
 .faq .container .tab input:checked ~ label h3 {
-  color: #fff;
+  color: #212121;
 }
 .faq .container .tab label {
   display: flex;
