@@ -127,4 +127,8 @@ img {
   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
 }
 
+.subtitle {
+  font-size: 13px;
+}
+
 /*# sourceMappingURL=news.css.map */
