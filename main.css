@@ -1,0 +1,92 @@
+body {
+    background-color: #242424;
+    color: #e1e1e1;
+    font-family: Arial;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+nav a {
+    padding: 0 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #06b3da;
+}
+
+nav a:hover {
+    color: #00a5dc;
+}
+
+div {
+    margin-top: 10%;
+    text-align: left;
+}
+
+div p {
+    text-align: left;
+    margin-left: 25%;
+}
+
+div ul {
+    text-align: left;
+    margin-left: 30%;
+}
+
+div h1 {
+    margin-left: 5%;
+}
+
+div a {
+    color: #006200;
+    text-decoration: none;
+}
+
+div a:hover {
+    color: #015201;
+}
+
+.home {
+    margin-right: 25%
+}
+
+#social p a {
+    padding: 0 12px;
+    margin-bottom: 12px;
+}
+
+#social {
+    margin-bottom: 3%;
+}
+
+.startPresentation {
+    font-family: "Calibri";
+    font-style: italic;
+    color: #046ad0;
+    font-size: 20px;
+}
+
+.pseudonyme {
+    font-weight: bold;
+    color: #d9d9d9;
+    font-size: 40px;
+    font-family: "valorax";
+}
+
+.fastPresentation {
+    color: #bbbbbb;
+    font-size: 25px;
+}
+
+cert {
+    font-style: italic;
+    font-family: "Calibri Light";
+    color: #b90101;
+}
